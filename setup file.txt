@@ -1,0 +1,29 @@
+# Steps to run the app
+
+1. download the project from this link [https://drive.google.com/drive/folders/19mNgsbKcmMApBrBlY2kr11Yqe1VRxKQG?usp=drive_link]
+
+2. move the downloaded folder to the C:drive
+
+3. open the project folder from your Pycharm IDE
+
+2. Create a virtual environment for your project goto file>settings>add interpreter> click on Add local interpreter> select virtual environment (new)
+
+ and install dependencies using "pip install -r requirements.txt", and wait for all the dependencies to install successfully
+
+3. Create a new superuser for the admin using "python ./manage.py createsuperuser".
+
+if the error occurs like this> ModuleNotFoundError: No module named 'import_export'
+
+then run the command in your local terminal  [pip install django-import-export]
+
+again run step 3> python ./manage.py createsuperuser
+
+also run this command after creating the superuser> python manage.py migrate
+
+this command will apply all the migrations for the django app
+
+if valueError is showing then run this command> pip install requests
+ 
+now finally run the app by using the below command
+
+4. Run the development server to verify everything is working using "python ./manage.py runserver".

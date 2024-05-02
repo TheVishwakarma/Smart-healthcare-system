@@ -9,14 +9,17 @@ This is a web application that predicts the disease of the patient based on the 
 
 # Features
 1. Predict disease based on the symptoms entered by the user.
-2. Generate proper report in pdf format.
-3. Print and share report.
-4. Display symptoms and precautions for a particular disease.
-5. Interective frontend.
-6. Fuzzy logic implemented in disease search funtionality.
-7. Login and signup, both by google and manually registeration.
+2. Search nearby doctors.
+3. Generate proper report in pdf format.
+4. Print and share report.
+5. Display symptoms and precautions for a particular disease.
+6. Blog section.
+7. Interective frontend.
+8. Fuzzy logic implemented in disease search funtionality.
+9. Login and signup, both by google and manually registeration.
 
 # Dependencies
 1. Django Framework.
 2. Naive byes algorithm for predicting disease.
 3. Gmail api for login.
+
